@@ -330,6 +330,14 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-cover {
     height: 600px;
   }
+
+  #accomodation-header, 
+  #agenda-header, 
+  #contact-header, 
+  #rsvp-header, 
+  #weddinglist-header {
+    height: 900px
+  }
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
@@ -842,6 +850,47 @@ form label {
     background-image: url(../images/aurelie-adrien-small.jpg); 
   }
 }
+
+#accomodation-header { 
+  background-image: url(../images/infos-pratiques.jpg); 
+}
+@media only screen and (max-width: 768px) {
+  #accomodation-header { 
+    background-image: url(../images/infos-pratiques-small.jpg); 
+  }
+}
+
+#agenda-header { 
+  background-image: url(../images/infos-pratiques.jpg); 
+}
+@media only screen and (max-width: 768px) {
+  #agenda-header { 
+    background-image: url(../images/infos-pratiques-small.jpg); 
+  }
+}
+
+#contact-header { 
+  background-image: url(../images/infos-pratiques.jpg); 
+}
+@media only screen and (max-width: 768px) {
+  #contact-header { 
+    background-image: url(../images/infos-pratiques-small.jpg); 
+  }
+}
+
+#rsvp-header { 
+  background-image: url(../images/rsvp.jpg); 
+}
+
+#weddinglist-header { 
+  background-image: url(../images/infos-pratiques.jpg); 
+}
+@media only screen and (max-width: 768px) {
+  #weddinglist-header { 
+    background-image: url(../images/infos-pratiques-small.jpg); 
+  }
+}
+
 #fh5co-event { 
   background-image: url(../images/infos-pratiques.jpg); 
 }
@@ -857,12 +906,23 @@ form label {
   display: table-cell !important;
   vertical-align: middle;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc,
   #fh5co-counter .display-tc,
   .fh5co-cover .display-tc {
     display: table-cell !important;
     vertical-align: bottom;
+    padding-bottom: 40px;
+  }
+
+  #accomodation-header .display-tc,
+  #agenda-header .display-tc,
+  #contact-header .display-tc,
+  #rsvp-header .display-tc,
+  #weddinglist-header .display-tc {
+    display: table-cell !important;
+    vertical-align: middle;
     padding-bottom: 40px;
   }
 }
