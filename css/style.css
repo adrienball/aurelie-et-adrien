@@ -600,7 +600,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .date {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.timeline-location {
+  margin-bottom: 10px;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -880,7 +887,13 @@ form label {
 }
 
 #rsvp-header { 
-  background-image: url(../images/rsvp.jpg); 
+  background-image: url(../images/lanterne.jpg); 
+}
+
+@media only screen and (max-width: 768px) {
+  #rsvp-header { 
+    background-image: url(../images/lanterne-small.jpg); 
+  }
 }
 
 #weddinglist-header { 
