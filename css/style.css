@@ -859,11 +859,12 @@ form label {
 }
 
 #accomodation-header { 
-  background-image: url(../images/infos-pratiques.jpg); 
+  background-image: url(../images/infos-pratiques-banner.jpg);
+  height: 200px;
 }
 @media only screen and (max-width: 768px) {
   #accomodation-header { 
-    background-image: url(../images/infos-pratiques-small.jpg); 
+    background-image: url(../images/infos-pratiques-banner-small.jpg); 
   }
 }
 
