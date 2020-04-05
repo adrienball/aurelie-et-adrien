@@ -1,2 +1,2 @@
-# aurelie-et-adrien
-Our wedding website
+# Aurélie & Adrien
+Our wedding website.
