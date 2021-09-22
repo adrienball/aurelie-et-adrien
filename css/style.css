@@ -858,46 +858,6 @@ form label {
   }
 }
 
-#accomodation-header { 
-  background-image: url(../images/infos-pratiques-banner.jpg);
-  height: 200px;
-}
-@media only screen and (max-width: 768px) {
-  #accomodation-header { 
-    background-image: url(../images/infos-pratiques-banner-small.jpg); 
-  }
-}
-
-#agenda-header { 
-  background-image: url(../images/infos-pratiques-banner.jpg);
-  height: 200px;
-}
-@media only screen and (max-width: 768px) {
-  #agenda-header { 
-    background-image: url(../images/infos-pratiques-banner-small.jpg); 
-  }
-}
-
-#contact-header { 
-  background-image: url(../images/infos-pratiques-banner.jpg);
-  height: 200px;
-}
-@media only screen and (max-width: 768px) {
-  #contact-header { 
-    background-image: url(../images/infos-pratiques-banner-small.jpg);
-  }
-}
-
-#rsvp-header { 
-  background-image: url(../images/lanterne.jpg); 
-}
-
-@media only screen and (max-width: 768px) {
-  #rsvp-header { 
-    background-image: url(../images/lanterne-small.jpg); 
-  }
-}
-
 #weddinglist-header { 
   background-image: url(../images/infos-pratiques-banner.jpg);
   height: 200px;
