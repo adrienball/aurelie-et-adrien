@@ -858,25 +858,6 @@ form label {
   }
 }
 
-#weddinglist-header { 
-  background-image: url(../images/infos-pratiques-banner.jpg);
-  height: 200px;
-}
-@media only screen and (max-width: 768px) {
-  #weddinglist-header { 
-    background-image: url(../images/infos-pratiques-banner-small.jpg); 
-  }
-}
-
-#fh5co-event { 
-  background-image: url(../images/infos-pratiques.jpg); 
-}
-@media only screen and (max-width: 768px) {
-  #fh5co-event { 
-    background-image: url(../images/infos-pratiques-small.jpg); 
-  }
-}
-
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
